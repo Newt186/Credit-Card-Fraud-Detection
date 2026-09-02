@@ -1,37 +1,27 @@
-
----
-
-# 🔴 Project 2 — Credit Card Fraud Detection
-
-
-```markdown
 # Credit Card Fraud Detection
 
 A machine learning project that detects fraudulent credit card transactions using Random Forest and SMOTE, with model evaluation and decision threshold analysis.
 
 ## Project Overview
 
-Credit card fraud detection is a classification problem where fraudulent transactions are usually much less common than legitimate transactions.
+Credit card fraud detection is a binary classification problem where fraudulent transactions are significantly less common than legitimate transactions.
 
-This project focuses on:
+This project focuses on building a machine learning pipeline that can identify potentially fraudulent transactions while analyzing the trade-off between precision and recall.
 
-- Exploratory Data Analysis
-- Class imbalance analysis
-- Data preprocessing
-- Feature scaling
-- Train-test splitting
-- SMOTE oversampling
-- Random Forest classification
-- Precision evaluation
-- Recall evaluation
-- F1 Score evaluation
-- ROC-AUC evaluation
-- Confusion matrix analysis
-- ROC curve
-- Precision-Recall curve
-- Decision threshold analysis
-- Feature importance
-- Saving predictions and reports
+## Objectives
+
+- Analyze the credit card transaction dataset
+- Explore the class imbalance between legitimate and fraudulent transactions
+- Preprocess and scale the data
+- Split the dataset into training and testing sets
+- Handle class imbalance using SMOTE
+- Train a Random Forest classification model
+- Evaluate the model using multiple metrics
+- Analyze the confusion matrix
+- Plot ROC and Precision-Recall curves
+- Analyze different classification thresholds
+- Identify important features
+- Save predictions and analysis results
 
 ## Dataset
 
